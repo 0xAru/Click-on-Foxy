@@ -22,7 +22,7 @@ let gameStart = false;
 
 if (userBestScore) {
     userBestScore = JSON.parse(userBestScore)
-    document.querySelector('#bestScore').innerHTML = " Meilleur score: " + userBestScore.score
+    document.querySelector('#bestScore').innerHTML = " Meilleur score: " + userBestScore.score;
 }
 
 function begin() {
@@ -91,7 +91,7 @@ begin()
 
 function openModal() {
     modal.classList.add("show-modal");
-    document.querySelector("#score-final").innerHTML = "Votre score final est de " + score + " points."
+    document.querySelector("#score-final").innerHTML = "Bien joué " + userName + "! Ton score final est de " + score + " points."
 }
 
 function closeModal() {
