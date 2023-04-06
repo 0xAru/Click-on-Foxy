@@ -1,7 +1,17 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap%27');
+/* font-family: 'Poppins', sans-serif; */
+
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
     font-size: larger;
     color: rgb(200, 98, 48);
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
 }
 
 .containerTwo {
@@ -19,7 +29,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 5em;
+    height: 10vh;
     background-color: rgb(9, 22, 28);
     border-bottom: 1px solid black;
 }
@@ -33,7 +43,7 @@ body {
 #jeu {
     position: relative;
     width: 100%;
-    height: 43em;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,15 +117,20 @@ input:focus {
 }
 
 .modal-content {
+    display: flex;
     position: relative;
     top: 50%;
     left: 50%;
+    height: 20%;
     transform: translate(-50%, -50%);
     background-color: rgba(21, 49, 62, 0.940);
-    padding: 6rem 10rem;
-    width: 24rem;
+    padding: 40px 30px;
+    width: 30%;
     border-radius: 0.5rem;
     border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .close-button {
@@ -129,6 +144,7 @@ input:focus {
     border-radius: 3px;
     background-color: rgb(200, 98, 48);
     color: black;
+    text-decoration: none;
 }
 
 .close-button:hover {
@@ -145,10 +161,12 @@ input:focus {
 #score-final {
     text-align: center;
     color: rgb(200, 98, 48);
+    padding-top: 30px;
 }
 
 #containerRestart {
     text-align: center;
+    padding: 30px;
 }
 
 #restart {
