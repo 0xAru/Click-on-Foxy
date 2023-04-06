@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Foxy</title>
+</head>
+
+<body>
+    <div class="containerOne">
+        <h1 id="left"><a href="../index.html">Click on Foxy</a></h1>
+        <div id="bestScore"></div>
+            <div id="score"></div>
+            <p id="time"></p>
+    </div>
+    <div class="containerTwo">
+        <div id="jeu">
+            <div><img onclick="scoring()" src="../assets/images/Foxy.png" alt="Dessin d'un renard" id="foxy"></div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="modal-content">
+          <a class="close-button" href="../index.html">&times;</a>
+          <p id="score-final"></p>
+          <div id="containerRestart">
+          <button id="restart">Restart</button>
+        </div>
+        </div>
+      </div>
+    <script src="../assets/js/foxy.js"></script>
+</body>
+
+</html>
