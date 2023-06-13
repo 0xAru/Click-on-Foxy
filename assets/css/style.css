@@ -9,7 +9,7 @@
 
 body {
     font-size: larger;
-    color: rgb(200, 98, 48);
+    color: rgb(255, 72, 0);
     height: 100vh;
     font-family: 'Poppins', sans-serif;
 }
@@ -57,10 +57,10 @@ body {
 
 input {
     background-color: transparent;
-    border: 1px solid rgb(200, 98, 48);
+    border: 1px solid rgb(255, 72, 0);
     border-radius: 10px;
     height: 2em;
-    color: rgb(200, 98, 48);
+    color: rgb(255, 72, 0);
 }
 
 input:focus {
@@ -73,7 +73,7 @@ input:focus {
     margin-top: 2em;
     margin-left: 5em;
     border-radius: 10px;
-    border: 1px solid rgb(148, 74, 36);
+    border: 1px solid rgb(255, 72, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,7 +100,7 @@ input:focus {
 
 #left > a {
     text-decoration: none;
-    color:rgb(200, 98, 48);
+    color:rgb(255, 64, 0);
 }
 
 .modal {
@@ -142,13 +142,13 @@ input:focus {
     text-align: center;
     cursor: pointer;
     border-radius: 3px;
-    background-color: rgb(200, 98, 48);
+    background-color: rgb(255, 72, 0);
     color: black;
     text-decoration: none;
 }
 
 .close-button:hover {
-    background-color: rgb(148, 74, 36);
+    background-color: rgb(177, 51, 1);
 }
 
 .show-modal {
@@ -160,7 +160,7 @@ input:focus {
 
 #score-final {
     text-align: center;
-    color: rgb(200, 98, 48);
+    color: rgb(255, 72, 0);
     padding-top: 30px;
 }
 
@@ -170,7 +170,7 @@ input:focus {
 }
 
 #restart {
-    background-color: rgb(200, 98, 48);
+    background-color: rgb(255, 72, 0);
     border: 1px solid black;
     border-radius: 5px;
     padding: 0.5em;
@@ -178,10 +178,9 @@ input:focus {
 }
 
 #restart:hover {
-    background-color: rgb(148, 74, 36);
+    background-color: rgb(177, 51, 1);
 }
 
 .log {
     font-size: larger;
-    text-shadow: rgba(148, 73, 36, 0.4) 2px 2px;
 }
