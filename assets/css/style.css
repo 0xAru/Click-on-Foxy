@@ -34,7 +34,7 @@ body {
     border-bottom: 1px solid black;
 }
 
-.containerOne > p {
+.containerOne>p {
     display: flex;
     justify-content: center;
     margin: 1em;
@@ -98,9 +98,9 @@ input:focus {
     margin: 0 5em;
 }
 
-#left > a {
+#left>a {
     text-decoration: none;
-    color:rgb(255, 64, 0);
+    color: rgb(255, 64, 0);
 }
 
 .modal {
@@ -183,4 +183,17 @@ input:focus {
 
 .log {
     font-size: larger;
+}
+
+@media (max-width: 850px) {
+    .containerOne {
+        display: flex;
+        flex-direction: column;
+        height: 15vh;
+    }
+
+    .modal-content {
+        width: fit-content;
+        height: auto;
+    }
 }

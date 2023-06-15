@@ -13,7 +13,7 @@ let userName = localStorage.getItem('player');
 let userBestScore = localStorage.getItem('bestScore');
 let limitWidth = cont.clientWidth;
 let limitHeight = cont.clientHeight;
-let time = 4;
+let time = 20;
 let score = 0;
 let timeInterval;
 let foxyInterval;
@@ -30,7 +30,7 @@ function begin() {
     containerScore.innerHTML = "Score : " + score;
     containerTime.innerHTML = "Timer : " + time;
     if (gameStart == false) {
-        time = 4;
+        time = 20;
         score = 0;
         gameStart = true;
         timeInterval = setInterval(countDown, 1000);
